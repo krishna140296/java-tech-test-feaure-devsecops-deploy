@@ -1,0 +1,10 @@
+region                   = "ap-south-1"
+ecs_cluster_name          = "java-app"
+ecs_task_family           = "java-app"
+container_image           = "422571697755.dkr.ecr.ap-south-1.amazonaws.com/java-test:latest"
+ecs_execution_role_name   = "ecsTaskExecutionRolejava"
+ecs_service_name          = "java-app"
+desired_count             = 1
+subnet_ids                = ["subnet-0df041125fd97e373", "subnet-0ca1bee5b4efb5aa0"]
+vpc_id                    = "vpc-035fee69c51f6e2aa"
+aws_alb_name		  = "java-app"
