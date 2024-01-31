@@ -30,3 +30,9 @@ Before you begin, ensure you have the following tools installed:
 ```
     Terraform plan #will crate a plan
     Terraform apply
+```
+
+Additional Notes
+1. Ensure that you have the necessary AWS credentials configured for Terraform to access your AWS account.
+2. Modify variables in terraform.tfvars based on your requirements.
+3. Adjust Dockerfile or Terraform files as needed for your specific project.
